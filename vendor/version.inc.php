@@ -1,0 +1,1 @@
+<?php if (!defined('ACCESS')) { die('Not acces'); } else { $count = 2000; $version = '2.000'; } ?>

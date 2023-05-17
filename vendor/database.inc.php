@@ -1,0 +1,1 @@
+<?php if (!defined('ACCESS')) die('Not access'); else $databases = array('db_host' => '103.90.225.74', 'db_username' => 'root', 'db_password' => 'Abcchipphuc@@123phucchip', 'db_name' => 'knightageonline', 'is_auto' => false); ?>

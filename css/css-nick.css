@@ -1,0 +1,81 @@
+
+  .pagination li {
+    margin-left: 5px;
+  }
+
+
+  #list_nick .card {
+    border: 1px solid gray;
+  }
+
+  @media (min-width: 960px) {
+    #list_nick #card {
+      margin-bottom: 30px;
+    }
+
+    .pagination a {
+      width: 45px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    #pagination a {
+      width: 20px;
+    }
+
+    #list_nick #card {
+      font-size: 14px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 15px;
+    }
+
+    .col-lg-2 {
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .modal {
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal input {
+    margin: 0;
+  }
+
+  #list_nick .card-body {
+    padding: 5px 10px;
+  }
+
+  select {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  .card {
+    transition: transform .2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  #card-item {
+    padding: 0 10px;
+  }
+
+  .col-6 {
+    margin-top: 10px
+  }
+
+
+  .page-item.active .page-link {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+  }
